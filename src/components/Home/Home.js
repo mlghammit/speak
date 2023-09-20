@@ -31,7 +31,7 @@ function Home() {
               </div>
 
               <a
-                href="/about"
+                href="about"
                 className="button-gradient w-inline-block"
                 ><div>‎ ‎ ‎ ‎‎ ‎‎‎ ‎ ‎ ‎‎ ‎‎‎ ‎ ‎ ‎ ‎ Learn More About Us</div></a
               >

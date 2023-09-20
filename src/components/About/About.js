@@ -21,11 +21,12 @@ import Hamza from "/Users/hamzakhamissa/Desktop/Portfolio-Website-main/src/Asset
 import Serjan from "/Users/hamzakhamissa/Desktop/Portfolio-Website-main/src/Assets/Headshots/Untitled design (13).png"
 import Other from "/Users/hamzakhamissa/Desktop/Portfolio-Website-main/src/Assets/Headshots/Intentionally-created-Blank-Profile.jpg"
 import Cindy from "/Users/hamzakhamissa/Desktop/Portfolio-Website-main/src/Assets/Headshots/Untitled design (25).png"
-import Fabiola from "/Users/hamzakhamissa/Desktop/Portfolio-Website-main/src/Assets/Untitled design (26).png"
+import Fabiola from "/Users/hamzakhamissa/Desktop/Portfolio-Website-main/src/Assets/Headshots/Untitled design (26).png"
 import Marshal from "/Users/hamzakhamissa/Desktop/Portfolio-Website-main/src/Assets/Headshots/Untitled design (18).png"
 import Anna from "/Users/hamzakhamissa/Desktop/Portfolio-Website-main/src/Assets/Headshots/Untitled design (24).png"
 import Charvi from "/Users/hamzakhamissa/Desktop/Portfolio-Website-main/src/Assets/Headshots/Untitled design (21).png"
 import Jessica from "/Users/hamzakhamissa/Desktop/Portfolio-Website-main/src/Assets/Headshots/Untitled design (20).png"
+import Keeyan from "/Users/hamzakhamissa/Desktop/Portfolio-Website-main/src/Assets/Headshots/Untitled design (27).png"
 function About() {
   // Define an array of team member data
   const teamMembers = [
@@ -78,7 +79,7 @@ function About() {
     {
       name: "Keeyan Mithani",
       title: "Director of Finance & Strategy",
-      imageUrl: Other
+      imageUrl: Keeyan
     },
     {
       name: "Jessica Chen",
