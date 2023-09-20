@@ -1,0 +1,169 @@
+.about-section {
+
+  padding-top: 150px !important;
+  padding-bottom: 20px !important;
+  background-color: var(--clr-bg) !important;
+
+}
+
+.primary-header {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.header-us {
+  font-size: 80px;
+  font-weight: bold;
+  background-clip: text;
+  -webkit-background-clip: text; /* For compatibility with some browsers */
+  color: transparent !important;
+  background-image: linear-gradient(94deg, #804cbb 29%, #3344dc) !important;
+  margin-left: 5px;
+}
+
+.description-paragraph {
+  font-size: 32px;
+  line-height: 70px;
+  padding-bottom: 50px;
+
+}
+
+.description-paragraph-2 {
+  font-size: 32px;
+  line-height: 70px;
+  width: 100% !important;
+}
+
+.condo-image {
+  width:  50vw;
+  height: auto;
+  margin-left: -10vw;
+  margin-top: -6vh; /* round image */
+  border-radius: 10px;
+  border: 1px solid #000;
+  padding: 0px; /* Adjust the padding value to control the border spacing */
+  box-sizing: border-box; /* This ensures that the padding is included in the width and height calculations */
+}
+
+.our-mission {
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 125px;
+}
+
+.our-mission-description {
+  font-size: 32px;
+  width: 80vw;
+  margin-left: -25vw;
+  line-height: 70px;
+  padding-top: 20px;
+}
+
+.the-team {
+  padding-top: 50px;
+  font-size: 90px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.the-team-header-2 {
+  background-clip: text;
+  -webkit-background-clip: text; /* For compatibility with some browsers */
+  color: transparent !important;
+  background-image: linear-gradient(94deg, #804cbb 29%, #3344dc) !important;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+  max-width: 92%;  /* Example width, you can adjust as needed */
+  margin-left: -28vw;
+  margin-bottom: 50px;
+
+}
+.team-member {
+  position: relative;
+  overflow: hidden;
+  width: 350px;
+  padding-bottom: 10px;
+}
+
+.team-member img {
+  display: block;
+  width: 50%;
+  transition: transform 0.3s ease;
+  margin-left: 82.5px;
+  padding-bottom: 10px;
+}
+
+.team-member:hover img {
+  transform: scale(1.1);
+}
+
+
+.home-about-social-two {
+  text-align: center !important;
+  color: var(--clr-txt) !important;
+}
+
+.home-about-social-links-two {
+  justify-content: center !important;
+  padding-top: 15px !important;
+  display: inline-block !important;
+  position: relative !important;
+  padding-inline-start: 0 !important;
+  
+}
+
+.home-social-icons-two {
+  position: relative !important;
+  display: inline-block !important;
+  width: 40px !important;
+  height: 40px !important;
+  text-align: center !important;
+  font-size: 1.2em !important;
+  line-height: 2em !important;
+  background: var(--clr-bg) !important;
+  box-shadow: var(--shadow) !important;
+  border-radius: 50% !important;
+  transition: 0.5s !important;
+  
+}
+
+.home-social-icons-two::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: var(--clr-primary);
+  transition: 0.5s;
+  transform: scale(0.9);
+  z-index: -1;
+}
+
+.home-social-icons-two:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px var(--clr-primary);
+}
+
+.home-social-icons-two:hover {
+  color: var(--clr-primary);
+  box-shadow: 0 0 5px var(--clr-primary);
+  text-shadow: 0 0 2px var(--clr-primary);
+}
+
+.social-icons-two {
+  display: inline-block !important;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: var(--clr-primary);
+
+}
+
+.hamza-section {
+  margin-top: -55px;
+}
